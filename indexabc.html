@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Minimizer Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+  <div class="top1">
+    <h1 class="title">Money Minimizer Visualization</h1>
+    <div class="center_sen">
+    <p class="description">Visualize debts and transactions among friends</p>
+  </div>
+    <div class="start">
+    <button id="startButton">Start</button>
+  </div>
+    <!-- <h1>Minimum Cash Flow Calculator</h1> -->
+    <!-- <label for="numPersons">Number of Persons (N): </label>
+    <input type="number" id="numPersons" min="1" value="3">
+    <button  id="updateGraph">Update Graph</button>
+    <br><br>
+    <div id="graphInput">
+        Graph input fields will be added here -->
+    <!-- </div> -->
+  </div>
+  </div>
+    <svg id="graph">
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="25" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M 0 0 L 10 5 L 0 10 z" class="arrow"/>
+        </marker>
+      </defs>
+    </svg>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="final.js"></script>
+</body>
+</html>
